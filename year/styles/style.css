@@ -1,0 +1,260 @@
+
+/* 바디 */
+body{
+
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #394C59;
+    background: #CFCDCD;
+    overflow-x: hidden;
+}
+
+
+/*상단 네비게이션바 */
+#top{
+    background: #394C59;
+    padding: 2px 0;
+}
+
+#top .offer{
+    color: #f0ad4e;
+}
+
+#top .offer .btn{
+    text-transform: uppercase;
+}
+
+@media(max-width: 991px) {
+    #top .offer{
+        margin-bottom: 10px;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+    #top{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+/*최상단바 왼쪽 글자색*/
+#top a{
+    color: #FFFFFF;
+}
+
+/*최상단바 오른쪽 */
+#top ul.menu{
+    padding-top: 3px;
+    padding-right: 50px;
+    margin: 0px;
+    text-align: right;
+    font-size: 16px;
+    list-style: none;
+}
+
+@media (max-width: 991px) {
+    #top ul.menu{
+        text-align: center;
+    }
+}
+
+#top ul.menu > li {
+    display: inline-block;
+}
+
+
+/*최상단 바 오른쪽 글자색*/
+#top ul.menu > li a{
+    color: #FFFFFF;
+}
+
+#top ul.menu > li dy{
+    width: auto;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*최상단 바 오른쪽 회원등록, 로그인 사이에 들어가는 것*/
+#top ul.menu > li + li:before {
+    content: "\00a0";
+    color: #fcf8e3;
+    padding: 0 10px;
+}
+
+
+/*버튼*/
+.button {
+    background-color: #AEB3C1;
+    border: none;
+    color: #394C59;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+
+
+
+
+#content {
+    position: absolute;
+    top: 50%;
+    height: 240px;
+    margin-top: -120px;
+}
+
+
+/* 맨 위에 청록색 내가 만든 부분  */
+.navbar1 {
+    width: 100%;
+    background: #394C59;
+    overflow: auto;
+
+}
+
+dyFont {
+    text-align: center;
+    color: #E2E1E4;
+    font-size: 13px;
+}
+
+dyFont2 {
+    text-align: center;
+    color: #E2E1E4;
+    font-size: 13px;
+    text-decoration: #31708f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 로그인폼 */
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3{
+    color: white;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+    color: white;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* 최근본상품 */
+
+
+
+
+
+
+
+
+
