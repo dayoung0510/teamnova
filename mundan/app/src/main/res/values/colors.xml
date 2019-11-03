@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#253847</color>
+    <color name="colorPrimaryDark">#445867</color>
+    <color name="colorAccent">#546e7a</color>
+    <color name="colorWarning">#ED00CB</color>
+    <color name="colorGray">#d5d5d5</color>
+
+    <color name="a1">#a5b3b9</color>
+    <color name="a2">#85a5b4</color>
+    <color name="a3">#65808c</color>
+    <color name="a4">#546e7a</color>
+    <color name="a5">#445867</color>
+    <color name="a6">#344959</color>
+    <color name="a7">#253847</color>
+
+</resources>

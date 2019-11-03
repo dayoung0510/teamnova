@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dayoungkim.mundan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="new문단"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/thumb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".a_registration.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".a_registration.RegisterActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="new문단"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".b_writingText.WritingTextActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".AdminWritingActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="inspired by">
+            <menu>
+                <item
+                    android:id="@+id/pharase"
+                    android:icon="@drawable/text"
+                    android:title="PHARASES" />
+
+                <item
+                    android:id="@+id/image"
+                    android:icon="@drawable/picture"
+                    android:title="IMAGES" />
+
+            </menu>
+        </item>
+
+
+
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/house"
+            android:title="홈으로" />
+        <item
+            android:id="@+id/mypage"
+            android:icon="@drawable/users"
+            android:title="마이페이지" />
+
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/chat"
+            android:title="메시지" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/research"
+            android:title="검색" />
+
+    </group>
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>
